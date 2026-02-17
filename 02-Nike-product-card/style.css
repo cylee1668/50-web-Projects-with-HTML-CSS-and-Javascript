@@ -43,6 +43,11 @@ html {
     background: #f1ae04;
     padding: 3rem;
     border-radius: 2.5rem 2.5rem 0 0;
+    transition: background 0.5s;
+}
+
+.container.change .card-top {
+    background: #d35246;
 }
 
 .card-top-text {
