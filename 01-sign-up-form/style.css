@@ -107,4 +107,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #555;
 }
