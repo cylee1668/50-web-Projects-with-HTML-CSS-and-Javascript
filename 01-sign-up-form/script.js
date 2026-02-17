@@ -6,6 +6,3 @@ signUpBtn.addEventListener("click", () => {
     }
 )
 
-// signUpBtn.addEventListener("click", () => {
-//     container.classList.toggle("change");
-//   });
