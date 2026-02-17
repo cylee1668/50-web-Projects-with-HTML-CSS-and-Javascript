@@ -40,6 +40,18 @@ html {
     z-index: 100;
 }
 
+.banner h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.banner p {
+    font-size: 2rem;
+}
+
+
+
+
 .green-bg{
     width: 40%;
     height: 100%;
