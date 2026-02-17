@@ -76,3 +76,21 @@ html {
     color: #fff;
     cursor: pointer;
 }
+
+.signup-form {
+    width: 60rem;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left:40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.signup-form h1{
+    font-size: 4rem;
+    color:#3aaf9f;
+}
