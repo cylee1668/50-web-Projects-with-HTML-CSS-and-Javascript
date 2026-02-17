@@ -7,5 +7,5 @@ color2.addEventListener('click', ()=> {
 })
 
 color1.addEventListener('click', ()=> {
-    container.classList.add('remove')
+    container.classList.remove('change')
 })
