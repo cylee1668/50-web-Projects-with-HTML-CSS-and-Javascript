@@ -116,3 +116,34 @@ html {
 .stars i:last-child {
     opacity: 0.4;
 }
+
+.size {
+    margin-bottom: 3rem;
+}
+
+.size h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.3rem;
+}
+
+.sizes {
+    display: flex;
+}
+
+.sizes span {
+    font-size: 1.3rem;
+    margin-right: 2.5rem;
+}
+
+.sizes span:nth-child(3) {
+    width: 2rem;
+    height: 2rem;
+    background: #25d393;
+    color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
