@@ -6,7 +6,7 @@
     font-family: Quicksand, sans-serif;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
@@ -27,6 +27,17 @@ html{
     box-shadow: 0 2rem 6rem rgb(0, 0, 0, 0.3);
     position: relative;
     
+}
+
+
+.banner {
+    position: absolute;
+    top:25%;
+    left: 5rem;
+    text-align: center;
+    color:#fff;
+    width: 30rem;
+    z-index: 100;
 }
 
 .green-bg{
