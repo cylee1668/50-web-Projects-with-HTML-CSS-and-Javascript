@@ -94,3 +94,17 @@ html {
     font-size: 4rem;
     color:#3aaf9f;
 }
+
+.social-media {
+    display: flex;
+}
+
+.social-media i {
+    width: 4rem;
+    height: 4rem;
+    border: .1rem solid #777;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
