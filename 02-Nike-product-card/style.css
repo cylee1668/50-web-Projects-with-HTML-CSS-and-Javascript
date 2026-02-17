@@ -147,3 +147,34 @@ html {
     place-items: center;
 }
 
+.color h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.colors {
+    display: flex;
+}
+
+.color-1,
+.color-2 {
+    width: 2rem;
+    height: 2rem;
+    background: #F00;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-1 {
+    background:#1c477a;
+    margin-right: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(28, 71, 122, 0.2);
+}
+
+.color-2 {
+    background: #c02244;
+    box-shadow: 0 1rem 2rem rgba(192, 34, 68, 0.3rem);
+}
+
