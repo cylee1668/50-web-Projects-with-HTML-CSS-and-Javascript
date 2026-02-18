@@ -47,9 +47,17 @@ html {
     background-color: #353535;
 }
 
+.container.dark .toggle {
+    background-color: #464646;
+}
+
 .toggle i {
     font-size: 4rem;
     color: #777;
+}
+
+.container.dark .toggle i {
+    color:#ddd;
 }
 
 .card-map{
