@@ -17,6 +17,10 @@ html {
     place-items: center;
 }
 
+.container.dark {
+    background-color: #262626;
+}
+
 .toggle {
   width: 6rem;
   height: 6rem;
@@ -37,6 +41,10 @@ html {
     position: relative;
     display: flex;
     box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.container.dark .card {
+    background-color: #353535;
 }
 
 .toggle i {
@@ -62,6 +70,10 @@ html {
     justify-content: space-around;
     color: #777;
     z-index: 10;
+}
+
+.container.dark .card-left {
+    color: #ccc;
 }
 
 .card-type {
