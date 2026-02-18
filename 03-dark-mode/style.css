@@ -61,9 +61,34 @@ html {
     flex-direction: column;
     justify-content: space-around;
     color: #777;
+    z-index: 10;
+}
+
+.card-type {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
 }
 
 .card-chip {
     width: 6rem;
 }
 
+.card-num {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.card-date {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.card-holder {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
