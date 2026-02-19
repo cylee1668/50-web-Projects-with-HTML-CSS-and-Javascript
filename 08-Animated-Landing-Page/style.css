@@ -13,4 +13,16 @@
 
 .banner {
   width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 80px;
+  color: #ddd;
+  font-weight: 300;
+  margin-bottom: 30px;
 }
