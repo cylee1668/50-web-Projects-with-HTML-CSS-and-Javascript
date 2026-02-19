@@ -9,6 +9,8 @@
   height: 100vh;
   background: linear-gradient(rgba(53, 82, 66, 0.5),rgba(47,80,63,0.6)), url(images/bg.jpg) center no-repeat;
   background-size: cover;
+  overflow: hidden;
+  position: relative;
 }
 
 .banner {
@@ -25,6 +27,8 @@
   color: #ddd;
   font-weight: 300;
   margin-bottom: 30px;
+  animation-name: moveToLeft;
+  animation-duration: 2s;
 }
 
 .banner span {
@@ -60,4 +64,15 @@
 .btn-right {
   background-color: transparent;
   color: #eee;
+}
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
