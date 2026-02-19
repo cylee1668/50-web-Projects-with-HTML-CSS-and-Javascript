@@ -61,11 +61,19 @@
 .btn-left {
   background-color: #eee;
   color: #444;
+  animation-name: animateBtn;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
 }
 
 .btn-right {
   background-color: transparent;
   color: #eee;
+  animation-name: animateBtn;
+  animation-duration: 1s;
+  animation-delay: 2.3s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes moveToLeft {
@@ -87,6 +95,16 @@
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
     opacity: 1;
   }
 }
