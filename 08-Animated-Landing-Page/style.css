@@ -26,3 +26,38 @@
   font-weight: 300;
   margin-bottom: 30px;
 }
+
+.banner span {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner p {
+  font-size: 50px;
+  font-weight: 300;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.banner button {
+  width: 180px;
+  padding: 12px;
+  margin: 20px;
+  border: 2px solid #eee;
+  border-radius: 50px;
+  font-size: 18px;
+  outline: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btn-left {
+  background-color: #eee;
+  color: #444;
+}
+
+.btn-right {
+  background-color: transparent;
+  color: #eee;
+}
