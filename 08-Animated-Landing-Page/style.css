@@ -27,8 +27,7 @@
   color: #ddd;
   font-weight: 300;
   margin-bottom: 30px;
-  animation-name: moveToLeft;
-  animation-duration: 2s;
+  animation: moveToLeft 2s;
 }
 
 .banner span {
@@ -42,8 +41,7 @@
   font-weight: 300;
   color: #eee;
   margin-bottom: 20px;
-  animation-name: moveToRight;
-  animation-duration: 2s;
+  animation: moveToRight 2s;
 }
 
 .banner button {
