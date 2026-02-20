@@ -11,3 +11,6 @@ signupBtn.addEventListener("click", () => {
 loginBtn.addEventListener("click", () => {
     loginModal.classList.add("display");
 })
+
+
+signupModal.classList.remove("display");
