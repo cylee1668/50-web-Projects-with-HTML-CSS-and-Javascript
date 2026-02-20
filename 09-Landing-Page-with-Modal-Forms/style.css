@@ -83,3 +83,31 @@
     transform: translate(-50%, -50%);
     border-radius: 20px;
 }
+
+.x-btn {
+    position: absolute;
+    right: 20px;
+    font-size: 50px;
+    color: #222;
+    cursor: pointer;
+}
+
+.form-header {
+    text-align: center;
+    margin: 80px 0 150px 0;
+    color: #fff;
+}
+
+.form-header h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.form-header h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
