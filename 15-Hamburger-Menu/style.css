@@ -51,6 +51,18 @@ body {
     background-color: chocolate;
 }
 
+.line-1 {
+    transform: rotateZ(-45deg) translate(-8px, 6px);
+}
+
+.line-2 {
+    opacity: 0;
+}
+
+.line-3 {
+    transform: rotateZ(45deg) translate(-8px, -6px);;
+}
+
 .nav-list {
     text-align: right;
 }
@@ -79,13 +91,23 @@ body {
     background-color: chocolate;
     position: absolute;
     left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
 }
+
 
 .nav-link::after {
     bottom: 0;
+    transform-origin: right;
 }
 
 .nav-link::before {
     top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::after,
+.nav-link:hover::before {
+    transform: scaleX(1);
 }
 
