@@ -24,6 +24,10 @@
     position: relative;
 }
 
+.option input {
+    display: none;
+}
+
 .option label {
     font-family: "Josefin Slab", sans-serif;
     font-size: 60px;
@@ -60,3 +64,4 @@
 .option input:checked ~ label::before {
     opacity: 1;
 }
+
