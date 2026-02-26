@@ -36,4 +36,21 @@ body {
     width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 80%;
+}
+
+.left h4 {
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.left span {
+    text-transform: uppercase;
+    color: #0d5692;
 }
