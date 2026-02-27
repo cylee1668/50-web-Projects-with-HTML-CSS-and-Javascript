@@ -82,4 +82,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1187ac;
+    margin-right: 20px;
 }
+
+.person h4 {
+    text-transform: uppercase;
+}
+
+
+.phone {
+    padding-left: 30px;
+}
+
+.email {
+    padding-left: 20px;
+}
+
+.address {
+    padding-left: 10px;
+}
+
+/* continous at 16:20
