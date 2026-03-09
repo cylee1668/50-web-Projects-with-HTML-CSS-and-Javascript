@@ -6,7 +6,7 @@
 .slideshow-wrapper {
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: relative;
 }
 
 .slide {
@@ -24,3 +24,20 @@
 }
 
 
+.control {
+    position: absolute;
+    top:0;
+    width: 15vw;
+    height: 100%;
+    background-color: rgba(92, 94, 97,0.6);
+    z-index: 100;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
