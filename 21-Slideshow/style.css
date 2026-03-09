@@ -32,6 +32,9 @@
     background-color: rgba(92, 94, 97,0.6);
     z-index: 100;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-arrow {
@@ -41,3 +44,28 @@
 .right-arrow {
     right: 0;
 }
+
+.line {
+    width: 0.2rem;
+    height: 10rem;
+    background-color: #ddd5d5;
+}
+
+.line-1 {
+    transform: rotate(20deg) translateY(0.35rem);
+}
+
+
+.line-2 {
+    transform: rotate(-20deg) translateY(-0.35rem);
+}
+
+.line-3 {
+    transform: rotate(-20deg) translateY(0.35rem);
+}
+
+
+.line-4 {
+    transform: rotate(20deg) translateY(-0.35rem);
+}
+
