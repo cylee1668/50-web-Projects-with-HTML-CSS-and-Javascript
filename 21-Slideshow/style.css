@@ -23,6 +23,12 @@
     opacity: 0.6;
 }
 
+.arrows-visibility {
+    opacity: 0;
+}
+
+
+
 
 .control {
     position: absolute;
@@ -35,6 +41,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: opacity 0.5s linear;
+}
+
+.control:hover {
+    opacity: 1;
 }
 
 .left-arrow {
