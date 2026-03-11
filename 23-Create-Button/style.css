@@ -27,12 +27,14 @@ body {
     outline: none;
     cursor: pointer;
     box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    overflow: hidden;
 }
 
 .btn span {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition: top 0.2s;
 }
 
 
@@ -45,5 +47,17 @@ body {
 }
 
 .btn-text-two {
-    display: none;
+    position: absolute;
+    width:100%;
+    top:150%;
+    left: 0;
+    transform: translateY(-50%)
+}
+
+.btn:hover .btn-text-one {
+    top: -100%;
+}
+
+.btn:hover .btn-text-two {
+    top: 50%;
 }
