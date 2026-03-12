@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>transform-origin vs translateX</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 40px;
+      margin: 50px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #f44336;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      line-height: 100px;
+    }
+    /* transform-origin: right */
+    .origin-right {
+      transform-origin: right;
+      transform: rotate(45deg);
+    }
+    /* translateX(-100%) */
+    .translate-left {
+      position: relative;
+      left: 0;
+      top: 50%;
+      transform: translateX(-100%) rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box origin-right">origin:right</div>
+    <div class="box translate-left">translateX(-100%)</div>
+  </div>
+</body>
+</html>
