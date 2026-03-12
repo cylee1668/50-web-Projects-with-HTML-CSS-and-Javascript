@@ -86,4 +86,10 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
+    transition: letter-spacing 0.2s;
+}
+
+
+.nav-link:hover {
+    letter-spacing: .8rem;
 }
