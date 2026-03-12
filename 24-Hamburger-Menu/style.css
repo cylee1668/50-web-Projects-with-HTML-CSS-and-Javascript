@@ -63,6 +63,13 @@
 }
 
 .nav-list {
+    height: 100vh;
+    width: 100vw;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
     z-index: 200;
 }
