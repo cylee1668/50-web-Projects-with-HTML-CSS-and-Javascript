@@ -6,8 +6,8 @@
 .header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(255,255,255, .3), rgba(255,255,255,0.5)),
-    url(images/bg.jpg) fixed center no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, 0.5)),
+        url(images/bg.jpg) fixed center no-repeat;
     background-size: cover;
 }
 
@@ -27,6 +27,11 @@
     justify-content: center;
     align-items: center;
     z-index: 300;
+    transition: all 0.5s;
+}
+
+.change .hamburger-menu {
+    background-color: #eef0eb;
 }
 
 .line {
@@ -36,36 +41,39 @@
     margin: 2px 0;
     transform-origin: right;
     transition: transform 0.6s;
-    
+
 }
 
 .change .line-1 {
     transform: rotate(-40deg) translateY(-5px);
-}   
+    background-color: #67b67b;
+}
 
-.change .line-2{
+.change .line-2 {
     opacity: 0;
 }
 
 .change .line-3 {
     transform: rotate(40deg) translateY(5px);
+    background-color: #67b67b;
 }
 
 
 .bg-cover {
-    background-color: rgba(103,182,123,0.9);
+    background-color: rgba(103, 182, 123, 0.9);
     width: 45px;
     height: 45px;
     position: fixed;
-    top:35px;
+    top: 35px;
     right: 35px;
     z-index: 100;
     border-radius: 50%;
-    transform: scale(150);
+    transition: transform 0.5s;
+
 }
 
 .change .bg-cover {
-    
+    transform: scale(150);
 }
 
 .nav-list {
@@ -78,6 +86,14 @@
     align-items: center;
     list-style: none;
     z-index: 200;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+}
+
+.change .nav-list {
+    opacity: 1;
+    visibility: visible;
 }
 
 .nav-item {
