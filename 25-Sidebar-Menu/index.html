@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar Menu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,600,700|Slabo+27px&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Sidebar Menu</title>
 </head>
+
 <body>
-    
+
+  <div class="container">
+    <nav class="sidebar">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+    </nav>
+  </div>
+  <div class="card">
+    <div class="card-img">
+      <img src="images/admin.png" alt="Admin Image" class="admin-image">
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">John Smith</h2>
+      <p class="card-subtitle">Administrator</p>
+      <form class="search-form">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button type="button" class="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-tachometer-alt"></i>
+            <span class="nav-link-text">Dashboard</span>
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="nav-link-text">E-commerce</span>
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            <i class="fas fa-gem"></i>
+            <span class="nav-link-text">Components</span>
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            <i class="fas fa-chart-line"></i>
+            <span class="nav-link-text">Charts</span>
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="nav-link-text">Maps</span>
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
+
+<!-- 9:00 -->
