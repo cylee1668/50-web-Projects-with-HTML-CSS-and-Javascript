@@ -6,3 +6,31 @@
     font-family: 'Slabo 27px', serif;
     outline: none;
 }
+
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --main-bg-color: #2e2e2e;
+    --primary-color: #524d4d;
+    --secondary-color: #777171;
+    --text-color: #9c9393;
+    --hover-text-color:#bdb8b8;
+    --active-icon-color:#2ae7e7;
+
+}
+
+.slidebar {
+    width: 15vw;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    position: fixed;
+}
+
+.main-section {
+    width: 85vw;
+    position: relative;
+    left: 15vw;
+}
